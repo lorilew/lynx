@@ -1,0 +1,21 @@
+{
+  "name": "website-frontend",
+  "description": "some website",
+  "version": "0.0.1",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^3.21.2",
+    "mocha": "^5.2.0",
+    "pug": "^2.0.3",
+    "request": "^2.88.0"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}

@@ -1,0 +1,15 @@
+html {
+  background: url(/images/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+h1 {
+  font-family: 'Lobster', sans-serif;
+  font-weight: medium;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding-top: 30px;
+  font-size: 72px;
+}
